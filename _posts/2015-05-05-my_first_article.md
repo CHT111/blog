@@ -1,6 +1,6 @@
 ---
 title: xxoo
-layout: default.html
+layout: index1.html
 ---
 
 
