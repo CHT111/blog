@@ -1,5 +1,5 @@
 ---
-title: xxoo
+title: xxoo;
 layout: index1.html
 ---
 
