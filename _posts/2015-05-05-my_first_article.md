@@ -1,7 +1,3 @@
----
-title: nginx的配置和使用;
-layout: index1
----
 
 
 
