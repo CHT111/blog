@@ -1,6 +1,9 @@
 ---
-title: 我的第一篇文章
+title: xxoo
+layout: default.html
 ---
+
+
 
 # {{ page.title }}
 
