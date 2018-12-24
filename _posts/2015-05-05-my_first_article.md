@@ -5,7 +5,7 @@ title: 我的第一篇文章
 # {{ page.title }}
 
 ## 目录
-+ [第一部分](#partI)
++ [第一部分](#第一部分)
 + [第二部分](#partII)
 + [第三部分](#partIII)
 
@@ -27,7 +27,8 @@ title: 我的第一篇文章
 
 ## 第三部分
  
-
+```markdown
 这里是第三部分的内容
 
 {{ page.date|date_to_string }}
+```
