@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul {
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background: white;
+    overflow: hidden;
+}
+
+div {
+    display: flex;
+    word-wrap: wrap;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 1px solid black
+}
+
+.black {
+    background: black
+}
+
+#head {
+    background: black
+}
+
+#wei {
+    background: black
+}
+
+.food {
+    background: black
+}
+
+.scrollbar-inner {
+    /* height: 300px;
+    -ms-overflow-style: none; */
+    /* -ms-scroll-chaining: chained;
+    -ms-content-zooming: zoom;
+    -ms-scroll-rails: none;
+    -ms-content-zoom-limit-min: 100%;
+    -ms-content-zoom-limit-max: 500%;
+    -ms-scroll-snap-type: proximity;
+    -ms-scroll-snap-points-x: snapList(100%, 200%, 300%, 400%, 500%);
+    -ms-overflow-style: none;
+    overflow: auto; */
+}
