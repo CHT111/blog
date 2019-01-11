@@ -2,7 +2,7 @@
 var CACHE_NAME = "my_cache";
 var urlsToCache = [
     './a.html',
-    './a.js'
+    // './a.js'
 ];
 //这里的self代表ServiceWorkerGlobalScope
 self.addEventListener('install', function (event) {
