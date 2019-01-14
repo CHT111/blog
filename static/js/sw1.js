@@ -33,13 +33,15 @@ self.addEventListener('fetch', function (event) {
                         caches.open(CACHE_NAME)
                             .then(function (cache) {
                                 cache.put(event.request, responseToCache);
-                            });
+                            }).catch(function (a){console.log(a)});
 
                         return response;
                     }
                 ).catch(function(a){
                     console.log(a)
                 });
+            }).catch(function(a){
+                console.log(a)
             })
     );
 })
