@@ -1,5 +1,5 @@
 
-var CACHE_NAME = "my_cache";
+var CACHE_NAME = "my_cache121";
 var urlsToCache = [
     '/index.html',
     // './a.js'
