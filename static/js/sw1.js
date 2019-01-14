@@ -37,7 +37,9 @@ self.addEventListener('fetch', function (event) {
 
                         return response;
                     }
-                );
+                ).catch(function(a){
+                    console.log(a)
+                });
             })
     );
 })
