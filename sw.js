@@ -1,7 +1,7 @@
 
 var CACHE_NAME = "my_cache";
 var urlsToCache = [
-    '/index.html',
+    'index.html',
     // './a.js'
 ];
 //这里的self代表ServiceWorkerGlobalScope
