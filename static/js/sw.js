@@ -1,6 +1,7 @@
-var CACHE_NAME = "my_cache121";
+
+var CACHE_NAME = "my_cache";
 var urlsToCache = [
-    'index.html',
+    '/index.html',
     // './a.js'
 ];
 //这里的self代表ServiceWorkerGlobalScope
@@ -32,15 +33,11 @@ self.addEventListener('fetch', function (event) {
                         caches.open(CACHE_NAME)
                             .then(function (cache) {
                                 cache.put(event.request, responseToCache);
-                            }).catch(function (a){console.log(a)});
+                            });
 
                         return response;
                     }
-                ).catch(function(a){
-                    console.log(a)
-                });
-            }).catch(function(a){
-                console.log(a)
+                );
             })
     );
 })
