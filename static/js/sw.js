@@ -12,7 +12,7 @@ self.addEventListener('install', function (event) {
         caches.open(CACHE_NAME).then(function (cache) {
             console.log('Opendhe : ', cache);
             return cache.addAll(urlsToCache);
-        })
+        }).catch(function(){})
     );
 })
 
@@ -33,11 +33,11 @@ self.addEventListener('fetch', function (event) {
                         caches.open(CACHE_NAME)
                             .then(function (cache) {
                                 cache.put(event.request, responseToCache);
-                            });
+                            }).catch(function(){});
 
                         return response;
                     }
                 );
-            })
+            }).catch(function(){})
     );
 })
